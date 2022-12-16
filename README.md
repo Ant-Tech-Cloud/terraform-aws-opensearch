@@ -23,7 +23,7 @@ module "opensearch" {
   vpc_id                  = "vpc-XXXXXXXXX"
   subnet_ids              = ["subnet-XXXXXXXXX", "subnet-ZZZZZZZ"]
   zone_awareness_enabled  = "true"
-  elasticsearch_version   = "6.5"
+  engine_version          = "OpenSearch_2.3"
   instance_type           = "t2.small.search"
   instance_count          = 4
   ebs_volume_size         = 10
