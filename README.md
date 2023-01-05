@@ -16,7 +16,7 @@ If you don't enable zone awareness, Amazon Opensearch places an endpoint into on
 ## Usage
 ``` terraform
 module "opensearch" {
-  source = "/opensearch/aws"
+  source = "Ant-Tech-Cloud/opensearch/aws"
   # version     = "x.x.x"
 
   domain_name             = "opensearch"
